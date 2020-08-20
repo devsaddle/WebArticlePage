@@ -90,7 +90,7 @@
         _tableView.estimatedRowHeight = 0 ;
         _tableView.estimatedSectionHeaderHeight = 0;
         _tableView.estimatedSectionFooterHeight = 0.f;
-        _tableView.backgroundColor = [UIColor blueColor];
+        _tableView.backgroundColor = [UIColor whiteColor];
         [_tableView addObserver:self forKeyPath:@"contentSize" options:NSKeyValueObservingOptionNew context:nil];
     }
     return _tableView;

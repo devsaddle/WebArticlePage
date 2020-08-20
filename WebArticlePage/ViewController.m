@@ -174,7 +174,7 @@
     if (_scrollView == nil) {
         _scrollView = [[UIScrollView alloc] initWithFrame:CGRectZero];
         _scrollView.delegate = self;
-        _scrollView.backgroundColor = [UIColor greenColor];
+        _scrollView.backgroundColor = [UIColor whiteColor];
         _scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         _scrollView.contentInset = UIEdgeInsetsMake(40, 0, 0, 0);
     }
